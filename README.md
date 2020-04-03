@@ -19,17 +19,17 @@ https://www.kaggle.com/c/expedia-hotel-recommendations/overview
 
 * destinations.csv:
 
-** srch_destination_id: 
+  ** srch_destination_id: 
 
-** ID of the destination where the hotel search was performed
+  ** ID of the destination where the hotel search was performed
 
 * train.csv:
 
-24 features to describe each hotel
+  24 features to describe each hotel
 
 * test.csv:
 
-22 features to describe user's information and interests
+  22 features to describe user's information and interests
 
 
 ## Tool
