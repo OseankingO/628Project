@@ -9,7 +9,7 @@ Pyhton
 
 This program is EE628 individual project written by _**Xinghan Qin**_.
 
-Every amazing trip cannot miss an amazing hotel. That’s why this project is going to find the most suitable hotel for you based on your interests and hobbies. To create and verify the model, the training data and testing data are found on Kaggle. Following is the link:
+Every amazing trip cannot miss an amazing hotel. That’s why this project is going to find the most suitable hotel for you based on your interests and hobbies. To create and verify the model, the training data and testing data are found on Kaggle. Here is reference link:
 
 https://www.kaggle.com/c/expedia-hotel-recommendations/overview
 
