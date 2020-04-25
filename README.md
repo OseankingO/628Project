@@ -9,34 +9,53 @@ Pyhton
 
 This program is EE628 individual project written by _**Xinghan Qin**_.
 
-Every amazing trip cannot miss an amazing hotel. That’s why this project is going to find the most suitable hotel for you based on your interests and hobbies. To create and verify the model, the training data and testing data are found on Kaggle. Here is reference link:
+Do you want to colourful your life? Here is a events recommendation system to recommend same suitable events for you based on your interests. To create and verify the model, the training data and testing data are found on Kaggle. Here is reference link:
 
-https://www.kaggle.com/c/expedia-hotel-recommendations/overview
+https://www.kaggle.com/c/event-recommendation-engine-challenge/data
 
 ##
 
 ## Data
 
-* destinations.csv:
-
-  * srch_destination_id: ID of the destination where the hotel search was performed
-
-  * d1-d149: latent description of search regions 
-
 * train.csv:
 
-  24 features to describe each hotel: 
+  6 features: 
   
-  date_time, site_name, posa_continent, user_location_country, user_location_region, user_location_city, orig_destination_distance, user_id, is_mobile, is_package, channel, srch_ci, srch_co, srch_adults_cnt, srch_children_cnt, srch_rm_cnt, srch_destination_id, srch_destination_type_id, is_booking, cnt, hotel_continent, hotel_country, hotel_market, hotel_cluster
+  user, event, invited, timestamp, interested, not_interested
 
 * test.csv:
 
-  22 features to describe user's information and interests:
+  4 features:
   
-  id, date_time, site_name, posa_continent, user_location_country, user_location_region, user_location_city, orig_destination_distance, user_id, is_mobile, is_package, channel, srch_ci, srch_co, srch_adults_cnt, srch_children_cnt, srch_rm_cnt, srch_destination_id, srch_destination_type_id, hotel_continent, hotel_country, hotel_market
+  user, event, invited, timestamp
 
+* users.csv:
+
+  7 features: 
+  
+  user_id, locale, birthyear, gender, joinedAt, location, timezone
+
+* event_attendees.csv:
+
+  5 features for attendency list: 
+  
+  event, yes, maybe, invited, no
+
+* events.csv:
+
+  110 features to descripe event: 
+  
+  event_id, user_id, start_time, city, state, zip, country, lat, lng, count_1, count_2, ..., count_100, count_other
+  
+* user_friends.csv:
+
+  2 features to descripe event: 
+  
+  user_id, firends
 
 ## Tool
+
+Python, numpy, csv, panda, pytorch
 
 ##
 
