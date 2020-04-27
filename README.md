@@ -5,6 +5,16 @@ project for 628
 
 Pyhton
 
+##
+
+## To Run
+
+* Run DataProcessing.py: processing train_data and test_data for training
+
+* Run Training.ipynb: Train the model and test
+
+##
+
 ## Introduction
 
 This program is EE628 individual project written by _**Xinghan Qin**_.
